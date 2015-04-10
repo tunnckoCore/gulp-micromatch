@@ -1,5 +1,9 @@
 
 
+## v1.0.1 / April 10, 2015
+- Release v1.0.1 / npm@v1.0.1
+- add related section
+
 ## v1.0.0 / April 10, 2015
 - Release v1.0.0 / npm@v1.0.0
 - run update, close #1
