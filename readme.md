@@ -32,6 +32,14 @@ gulp.src(['*.md', '*.js', '*.txt', '*.json'])
 ```
 
 
+## Related
+- [gulp](http://gulpjs.com): The streaming build system
+- [micromatch](https://github.com/jonschlinkert/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. Just use `micromatch.isMatch()` instead of `minimatch()`, or use `micromatch()` instead of `multimatch()`.
+- [gulp-j140](https://github.com/tunnckoCore/gulp-j140): Compile j140 templates. Gulp plugin for j140 - Javascript template engine in 140 bytes, by Jed Schmidt.
+- [gulp-octet](https://github.com/tunnckoCore/gulp-octet): Compile octet templates. Gulp plugin for octet - Javascript template engine in just 20 lines - used in AbsurdJS
+- [jstransformer](https://github.com/jstransformers/jstransformer): Normalize the API of any jstransformer
+
+
 ## Author
 **Charlike Mike Reagent**
 + [gratipay/tunnckoCore][author-gratipay]
