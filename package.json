@@ -1,7 +1,7 @@
 {
   "name": "gulp-micromatch",
   "version": "0.0.0",
-  "description": "wip",
+  "description": "micromatch as gulp plugin. Filtering vinyl files with glob patterns, regexp or matcher function. micromatch stream.",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
     "test": "node test.js",
@@ -17,7 +17,22 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/gulp-micromatch.git"
   },
-  "keywords": [],
+  "keywords": [
+    "files",
+    "filter",
+    "glob",
+    "gulp",
+    "gulpplugin",
+    "match",
+    "micro",
+    "micromatch",
+    "minimatch",
+    "multimatch",
+    "plugin",
+    "regex",
+    "stream",
+    "vinyl"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/gulp-micromatch/blob/master/license.md"

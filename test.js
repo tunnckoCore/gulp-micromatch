@@ -18,7 +18,7 @@ function micromatch(patterns, opts, callback) {
   gulp.src(['./*.*', './.*'])
     .pipe(plugin(patterns, opts))
     .pipe(through2.obj(function(file, enc, next) {
-      fileCount++
+      fileCount++;
       next();
     }, function onEnd() {
       callback(fileCount);
@@ -38,7 +38,7 @@ test('gulp-micromatch:', function() {
     micromatch('*.js', {dot: true, matchBase: true}, function _callback(matches) {
       test(matches, 2, 'should match `2` when string pattern');
       done();
-    })
+    });
   });
   test('should work when array of patterns given', function(done) {
     micromatch(['*.js', '*.md'], {dot: true, matchBase: true}, function _callback(matches) {
