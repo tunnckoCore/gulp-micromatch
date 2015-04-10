@@ -1,6 +1,6 @@
 {
   "name": "gulp-micromatch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "micromatch as gulp plugin. Filtering vinyl files with glob patterns, regexp or matcher function. micromatch stream.",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
