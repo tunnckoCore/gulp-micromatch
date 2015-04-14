@@ -38,8 +38,7 @@
     "url": "https://github.com/tunnckoCore/gulp-micromatch/blob/master/license.md"
   },
   "dependencies": {
-    "is-kindof": "~1.0.0",
-    "micromatch": "~2.1.5",
+    "is-match": "^0.1.0",
     "through2": "~0.6.3"
   },
   "devDependencies": {
