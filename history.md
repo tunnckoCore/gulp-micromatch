@@ -1,5 +1,12 @@
 
 
+## v1.0.2 / April 14, 2015
+- Release v1.0.2 / npm@v1.0.2  
+- update readme
+- run update
+- update tests
+- replace `micromatch` with `is-match`
+
 ## v1.0.1 / April 10, 2015
 - Release v1.0.1 / npm@v1.0.1
 - add related section
