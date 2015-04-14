@@ -30,7 +30,7 @@ test('gulp-micromatch:', function() {
     function fixture() {
       plugin();
     }
-    test.throws(fixture, /expects array, string, function or regexp/);
+    test.throws(fixture, /expects a string, array, regex or function/);
     test.throws(fixture, TypeError);
     done();
   });
