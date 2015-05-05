@@ -1,5 +1,11 @@
 
 
+## v1.0.3 / May 5, 2015
+- Release v1.0.3 / npm@v1.0.3  
+- update readme/links/rename
+- bump dependencies (is-match@~0.2.0)
+- apply feross/standard
+
 ## v1.0.2 / April 14, 2015
 - Release v1.0.2 / npm@v1.0.2  
 - update readme
