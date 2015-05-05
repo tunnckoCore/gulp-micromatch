@@ -33,7 +33,7 @@
   ],
   "license": {
     "type": "MIT",
-    "url": "https://github.com/tunnckoCore/gulp-micromatch/blob/master/license.md"
+    "url": "https://github.com/tunnckoCore/gulp-micromatch/blob/master/LICENSE.md"
   },
   "dependencies": {
     "is-match": "~0.2.0",
