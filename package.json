@@ -1,6 +1,6 @@
 {
   "name": "gulp-micromatch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Filter vinyl files with glob patterns, string, regexp, array, object or matcher function. micromatch stream.",
   "repository": "tunnckoCore/gulp-micromatch",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",

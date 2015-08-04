@@ -1,5 +1,10 @@
 
 
+## 1.0.4 - 2015-08-04
+- Release v1.0.4 / npm@v1.0.4
+- update dependencies - bump `is-match`, now have support for objects
+- update boilerplate 
+
 ## 1.0.3 - 2015-05-05
 - Release v1.0.3 / npm@v1.0.3  
 - update readme/links/rename
