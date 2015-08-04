@@ -1,11 +1,13 @@
-## [![npm][npmjs-img]][npmjs-url] [![standard style][standard-img]][standard-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
+# [gulp-micromatch][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> micromatch as gulp plugin. Filtering vinyl files with glob patterns, regexp or matcher function.  
-> micromatch stream.
+> Filter [vinyl files](https://github.com/wearefractal/vinyl) with [glob](https://github.com/isaacs/node-glob) patterns, string, regexp, array, object or matcher function. [micromatch](https://github.com/jonschlinkert/micromatch) stream.
+
+[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
+
 
 ## Install
 ```
-npm i --save gulp-micromatch
+npm i gulp-micromatch --save
 npm test
 ```
 
@@ -14,14 +16,14 @@ npm test
 > For more use-cases see the [tests](./test.js)
 
 ```js
-var gulp = require('gulp');
-var micromatch = require('gulp-micromatch');
+var gulp = require('gulp')
+var micromatch = require('gulp-micromatch')
 
 // options to pass to `micromatch`
 var opts = {
   dot: true,
   matchBase: true
-};
+}
 
 gulp.src(['*.md', '*.js', '*.txt', '*.json'])
   .pipe(micromatch('*.(js|json)', opts))
@@ -29,60 +31,72 @@ gulp.src(['*.md', '*.js', '*.txt', '*.json'])
     // a.js
     // b.json
     // c.json
-  }));
+  }))
 ```
 
 
 ## Related
-- [anymatch](https://github.com/es128/anymatch): Matches strings against configurable strings, globs, regular expressions, and/or… [more](https://github.com/es128/anymatch)
-- [gulp](http://gulpjs.com): The streaming build system
+- [anymatch](https://github.com/es128/anymatch): Matches strings against configurable strings, globs, regular expressions, and/or functions
+- [composer](https://github.com/jonschlinkert/composer): Boilerplate for creating a node.js application based on Template, vinyl and orchestrator. This consists of… [more](https://github.com/jonschlinkert/composer)
+- [dush](https://github.com/tunnckocore/dush): :clap: Minimalist 1.5kb event delegation for the browser (IE8+) and nodejs.
 - [generate](https://github.com/generate/generate): Project generator, for node.js.
-- [is-match](https://github.com/jonschlinkert/is-match): Create a matching function from a glob pattern, regex,… [more](https://github.com/jonschlinkert/is-match)
+- [is-match](https://github.com/jonschlinkert/is-match): Create a matching function from a glob pattern, regex, string, array, object or function.
 - [jstransformer](https://github.com/jstransformers/jstransformer): Normalize the API of any jstransformer
-- [micromatch](https://github.com/jonschlinkert/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster… [more](https://github.com/jonschlinkert/micromatch)
+- [micromatch](https://github.com/jonschlinkert/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. Just… [more](https://github.com/jonschlinkert/micromatch)
+- [octet](https://github.com/tunnckocore/octet): :watermelon: 1kb template engine for the browser and nodejs. Support helpers, partials and more.
+- [snapdragon](https://github.com/jonschlinkert/snapdragon): snapdragon is an extremely pluggable, powerful and easy-to-use parser-renderer factory.
 
 
-
-## Author
-**Charlike Mike Reagent**
-+ [gratipay/tunnckoCore][author-gratipay]
-+ [twitter/tunnckoCore][author-twitter]
-+ [github/tunnckoCore][author-github]
-+ [npmjs/tunnckoCore][author-npmjs]
-+ [more ...][contrib-more]
+## Contributing
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/gulp-micromatch/issues/new).  
+But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
 
 
-## License [![MIT license][license-img]][license-url]
-Copyright (c) 2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
-Released under the [`MIT`][license-url] license.
+## [Charlike Make Reagent](http://j.mp/1stW47C) [![new message to charlike][new-message-img]][new-message-url] [![freenode #charlike][freenode-img]][freenode-url]
+
+[![tunnckocore.tk][author-www-img]][author-www-url] [![keybase tunnckocore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
 
-[npmjs-url]: http://npm.im/gulp-micromatch
-[npmjs-img]: https://img.shields.io/npm/v/gulp-micromatch.svg?style=flat&label=gulp-micromatch
-
-[coveralls-url]: https://coveralls.io/r/tunnckoCore/gulp-micromatch?branch=master
-[coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/gulp-micromatch.svg?style=flat
+[npmjs-url]: https://www.npmjs.com/package/gulp-micromatch
+[npmjs-img]: https://img.shields.io/npm/v/gulp-micromatch.svg?label=gulp-micromatch
 
 [license-url]: https://github.com/tunnckoCore/gulp-micromatch/blob/master/LICENSE.md
-[license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-img]: https://img.shields.io/badge/license-MIT-blue.svg
+
+
+[codeclimate-url]: https://codeclimate.com/github/tunnckoCore/gulp-micromatch
+[codeclimate-img]: https://img.shields.io/codeclimate/github/tunnckoCore/gulp-micromatch.svg
 
 [travis-url]: https://travis-ci.org/tunnckoCore/gulp-micromatch
-[travis-img]: https://img.shields.io/travis/tunnckoCore/gulp-micromatch.svg?style=flat
+[travis-img]: https://img.shields.io/travis/tunnckoCore/gulp-micromatch.svg
 
-[daviddm-url]: https://david-dm.org/tunnckoCore/gulp-micromatch
-[daviddm-img]: https://img.shields.io/david/tunnckoCore/gulp-micromatch.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/tunnckoCore/gulp-micromatch
+[coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/gulp-micromatch.svg
 
-[author-gratipay]: https://gratipay.com/tunnckoCore
-[author-twitter]: https://twitter.com/tunnckoCore
-[author-github]: https://github.com/tunnckoCore
-[author-npmjs]: https://npmjs.org/~tunnckocore
-
-[contrib-more]: http://j.mp/1stW47C
-[contrib-graf]: https://github.com/tunnckoCore/gulp-micromatch/graphs/contributors
+[david-url]: https://david-dm.org/tunnckoCore/gulp-micromatch
+[david-img]: https://img.shields.io/david/tunnckoCore/gulp-micromatch.svg
 
 [standard-url]: https://github.com/feross/standard
-[standard-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 
-***
 
-_Proudly generated by [docks(1)](https://github.com/tunnckoCore/docks), May 5, 2015_
+[author-www-url]: http://www.tunnckocore.tk
+[author-www-img]: https://img.shields.io/badge/www-tunnckocore.tk-fe7d37.svg
+
+[keybase-url]: https://keybase.io/tunnckocore
+[keybase-img]: https://img.shields.io/badge/keybase-tunnckocore-8a7967.svg
+
+[author-npm-url]: https://www.npmjs.com/~tunnckocore
+[author-npm-img]: https://img.shields.io/badge/npm-~tunnckocore-cb3837.svg
+
+[author-twitter-url]: https://twitter.com/tunnckoCore
+[author-twitter-img]: https://img.shields.io/badge/twitter-@tunnckoCore-55acee.svg
+
+[author-github-url]: https://github.com/tunnckoCore
+[author-github-img]: https://img.shields.io/badge/github-@tunnckoCore-4183c4.svg
+
+[freenode-url]: http://webchat.freenode.net/?channels=charlike
+[freenode-img]: https://img.shields.io/badge/freenode-%23charlike-5654a4.svg
+
+[new-message-url]: https://github.com/tunnckoCore/messages
+[new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
