@@ -1,5 +1,10 @@
 
 
+## 1.0.5 - 2016-02-23
+- Release v1.0.5 / npm@v1.0.5
+- update license year
+- bump deps
+
 ## 1.0.4 - 2015-08-04
 - Release v1.0.4 / npm@v1.0.4
 - update dependencies - bump `is-match`, now have support for objects
