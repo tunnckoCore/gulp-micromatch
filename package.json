@@ -10,12 +10,12 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "is-match": "~0.3.4",
+    "is-match": "~0.4.0",
     "through2": "~2.0.0"
   },
   "devDependencies": {
     "assertit": "^0.1.0",
-    "vinyl-fs": "^1.0.0"
+    "vinyl-fs": "^2.3.1"
   },
   "keywords": [
     "files",
